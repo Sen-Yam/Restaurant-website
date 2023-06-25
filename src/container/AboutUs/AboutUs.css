@@ -1,0 +1,88 @@
+.app__aboutus{
+   position: relative;
+
+}
+.app__aboutus-content{
+    z-index: 2;  /* to make it absolute without setting position  */
+    flex-direction: row;
+   
+    
+}
+.app__aboutus-overlay {
+    position: absolute;
+    
+}
+
+.app__aboutus-overlay img {
+    width: 391px;
+    height: 415px;
+    
+}
+.app__aboutus-content_knife img{
+   
+    height: 700px;
+    
+}
+.app__aboutus-content_knife {
+    margin: 2rem 4rem;
+
+}
+.reverse{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.app__aboutus-content_about{
+    text-align: right;
+}
+.G{
+    display:none
+}
+.app__aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.app__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+
+@media screen and (max-width:700px) {
+    .app__aboutus-overlay img  {
+     display:none
+    }
+ 
+    .app__aboutus-content{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       
+    }
+    .app__aboutus-content_knife img {
+        height:200px;
+        transform: rotate(-45deg);
+       
+
+    
+    }
+    .app__aboutus-content_about{
+        text-align: center;
+    }
+    .app__aboutus-content_history{
+        text-align: center;
+        
+    }
+}
+
+

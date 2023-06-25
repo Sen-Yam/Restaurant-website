@@ -1,0 +1,40 @@
+.app__haeder {
+display:flex;
+flex-direction: row;
+min-height: 100vh;
+
+
+}
+
+.app_header-h1{
+font-family: var(--font-family);
+color:var(--color-golden);
+font-size: 90px;
+
+letter-spacing: 0.04em;
+}
+
+@media screen and (max-width:1000px){
+
+.app_header-h1{
+    font-size: 70px;
+}
+}
+@media screen and (max-width:800px){
+.app_header-h1{
+    font-size: 50px;
+}
+}
+@media screen and (max-width:890px){
+.app__haeder {
+    flex-direction: column;
+    
+}
+.app__wrapper_img img{
+    margin-right: 20%;
+}
+
+
+}
+
+
