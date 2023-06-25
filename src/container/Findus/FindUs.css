@@ -6,4 +6,8 @@
     .findUs{
         flex-direction: column;
     }
+
+       .app__wrapper_img img{
+        margin-top: 4rem;
+    }
 }
