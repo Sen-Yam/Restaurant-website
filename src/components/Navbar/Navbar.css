@@ -90,7 +90,7 @@
     flex-direction: column;
     
     text-align: end;
-    background: var(--color-footer);
+    background: var(--color-black);
     padding: 2rem;
     position: absolute;
     right: 0;
